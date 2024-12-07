@@ -1,0 +1,260 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.section2{
+    display:flex;
+}
+
+.title{
+    padding:8px 0 8px 0;
+    text-align: center;
+    background-color: #009393;
+    color: white;
+    font-size: 34px;
+}
+
+.discussion_area{
+    height:134vh;
+    width:45%;
+    border-collapse: collapse;
+    background-color: #009393;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.search{
+    height:70px;
+    width: 99%;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.new_form{
+    height:40px;
+    border:2px solid #009393;
+    padding:8px;
+    font-size: 16px;
+}
+
+.input_field{
+    height:40px;
+    border:2px solid #009393;
+    padding: 6px;
+    font-size: 16px;
+    width:200px;
+}
+
+input[type=text]{
+    padding:6px 12px;
+    border:2px solid #009393;
+}
+
+.sub_section{
+    margin-top: 30px;
+    margin-left: 25px;
+    /* display: none; */
+}
+
+.heading1{
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.para1{
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+
+#input_field2{
+    width:230px;
+    height:45px;
+    border:2px solid #009393;
+    padding: 6px;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+#questioning_area{
+    border:2px solid #009393;
+    font-size: 15px;
+}
+
+textarea{
+    padding: 6px 12px;
+    font-size: 16px;
+    border:2px solid #009393;
+}
+
+input,button{
+    border-radius: 8px;
+}
+
+.submit{
+    position: absolute;
+    padding:8px;
+    bottom:-35px;
+    right:24px;
+}
+
+button:hover,input:hover,textarea:hover{
+    /* box-shadow: 0 0 15px #009393, 0 0 25px #009393; */
+    background-color: #009393;
+    color: white;
+    border:1px solid white;
+}
+
+input:hover::placeholder,textarea:hover::placeholder{
+    color: white;
+}
+
+.parent_div,.dabba{
+    margin-top: 8px;
+    background-color: white;
+    width:99%;
+}
+
+.collection{
+    height:40px;
+    width:99%;
+    font-size: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.quest{
+    margin: 0 10px 0 10px;
+    padding: 5px 0 5px 0;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+#collection_area{
+    overflow: auto;
+}
+
+.question,.paragraph1{
+    font-size: larger;
+}
+
+.paragraph1{
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.rhs_questionarea
+{
+    margin-top: 8px;
+    min-height: 100px;
+    width:55vw;
+    background-color: #009393;
+    border-radius: 10px;
+}
+
+.response_area{
+    display: none;
+    margin: 12px 0 0 10px;
+}
+
+.padd{
+    padding:8px;
+    font-size:24px;
+}
+
+.btn3,.submit_response{
+    margin-top: 10px;
+    height:30px;
+    padding: 4px;
+    position: absolute;
+    right:20px;
+    font-size: 15px;
+}
+
+.response_text{
+    margin-top: 40px;
+}
+
+.name_field{
+    margin-top: 8px;
+    height:40px;
+    width:15vw;
+    font-size: 25px;
+}
+
+#solution{
+    margin-top: 5px;
+}
+
+.response_collection{
+    margin-top: 50px;
+    display: none;
+    border-radius: 10px;
+    background-color: #009393;
+}
+
+input[type="text"]{
+    font-size: 16px;
+}
+
+.response_collection{
+    display: none;
+    height:150px;
+    width:55vw;
+    overflow: auto;
+}
+
+.response_sub{
+    height:auto;
+    width:55vw;
+    /* background-color: #009393; */
+}
+
+.name,.sol{
+    padding:14px;
+    font-size: 18px;
+    margin-bottom: -15px;
+}
+
+.name{
+    font-weight: 700;
+}
+
+i{
+    font-size: 25px;
+}
+.like,.dislike{
+    margin:  10px 10px 10px 10px;
+}
+.buttons{
+    display: flex;
+    position:relative;
+    border-bottom: 2px solid white;
+}
+.like,.dislike{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.likeCount,.dislikeCount{
+    margin-left: 8px;
+}
+.likeCount,.dislikeCount{
+    font-size: 22px;
+}
+#star_icon{
+    position: absolute;
+    top:2px;
+    right:5px;
+    font-size: 22px;
+}
+
+.timestamp{
+    margin-top: 4px;
+    padding: 5px;
+    color:rgb(27, 151, 165)
+}
